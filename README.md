@@ -42,7 +42,7 @@ Address Resolution Protocol (reply)
 -  Ayrıca isteği yollayan ve isteği yanıtlayan 2 cihazda diğerinin MAC adresini ve IP adresini daha sonra kullanmak üzere belleğine (ARP Tablosu) kaydeder.
 
 
-## ARP TAblosu
+## ARP Tablosu
 
 Arp işlemini tekrar tekrar yapmamak için öğrenilen MAC adresini IP adresi ile eşleştirerek bilgilerini ileride kullanabilmek için tablosunda tutulur. 
 
