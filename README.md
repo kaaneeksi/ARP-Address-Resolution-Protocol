@@ -2,12 +2,12 @@
 
 **ARP** Türkçe ismi ile _"Adres Çözümleme Protokolü"_ kısaca bilgi vermek gerekirse, her **IP (Internet Protocol Address)** adresine karşılık gelen bir **MAC (Media Access Control)** adresi arasındaki ilişkiyi sürdürmek için kullanılır.
 
-Yerel bir ağda veri alış-verişi yapılacak cihazın MAC adresini bilmeliyiz. Bu sebeple eğer ki cihazın IP'sini biliyorsak fakat MAC adresini bilmiyorsak, **ARP** yani Adres Çözümleme Protokolü'nü kullanılırz
+Yerel bir ağda veri alış-verişi yapılacak cihazın MAC adresini bilmeliyiz. Eğer ki cihazın IP'sini biliyorsak fakat MAC adresini bilmiyorsak, **ARP** yani Adres Çözümleme Protokolü'nü kullanırız.
 
 
 ## ARP Nasıl Çalışır ?
 
-Evinizin içinde 2 cihaz olduğunu düşünün ve sizin cihazınızın diğer cihaz ile iletişime geçmesi için MAC adresini bilmesi gerektiğini söyledik ve bunu öğrenmek için de ARP protokolünü kullancak bunu için;
+Evinizin içinde 2 cihaz olduğunu düşünün, sizin cihazınızın diğer cihaz ile iletişime geçmesi için MAC adresini bilmesi gerektiğini söyledik ve bunu öğrenmek için de ARP protokolünü kullancak ;
 
  - IP si bilinen fakat fiziksel adresi bilinmeyen bir cihaz varsa bütün ağa arp isteği **(arp request)** gönderilir. Bu pakette gönderenin IP adresi, gönderenin MAC adresi ve alıcının IP adresi vardır. Alıcının MAC adresi bilinmediğinden tüm ağa yayın yapan (broadcast) bir paket yollanır ve isteğin bütün ağa ulaşması sağlanır.
 
